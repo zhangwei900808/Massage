@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>到店预订</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <link href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/public.css">
+    <link rel="stylesheet" href="../assets/css/mobiscroll.custom-3.0.0-beta2.min.css">
+        <link rel="stylesheet" href="../assets/css/serviceProject.css">
+    <link rel="stylesheet" href="../assets/css/bookToStore.css">
+  </head>
+  <body>
+    <header class="back-header">
+          <img class="img-back" src="../assets/imgs/fhan.png" alt="">
+    </header>
+ <div class="weui-cells">
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem">全身理疗 </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-gray text-align-left font-size-dot-7rem">145元/60分钟</div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem">服务人次 </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-gray text-align-left font-size-dot-7rem">
+                <div class="count-component">
+                    <span class="less">-</span><span class="count">1份</span><span class="plus active">+</span>
+                </div>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem"> 到店时间 </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-orange text-align-left font-size-dot-7rem">
+                <input id="smsj" class="weui-input" type="text" placeholder="请选择上门时间">
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem">有无以下特殊情况  </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-gray text-align-left font-size-dot-7rem">
+                <select class="weui-select" name="select2">
+                    <option value="1">没有</option>
+                    <option value="2">其它</option>
+                </select>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem">优惠券 </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-orange text-align-left font-size-dot-7rem">减50元</div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+            <p class="font-size-dot-8rem">预计实付 </p>
+            </div>
+            <div class="weui-cell__ft flex-1 font-red text-align-left font-size-dot-7rem">95元</div>
+        </div>
+    </div>
+    <section class="tips">
+        <p class="title">
+            温馨提示:
+        </p>
+        <p class="sub-title">1、高龄、骨质疏松及孕期用户不宜</p>
+        <p class="sub-title">2、如取消订单则，则支付的金额原路返回、一般需要5个工作日。</p>
+    </section>
+    <section class="btns">
+        <a href="javascript:;" class="weui-btn weui-btn_warn">确认提交</a>
+    </section>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/js/mobiscroll.custom-3.0.0-beta2.min.js"></script>
+    <script src="../assets/js/bookToStore.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,12 @@
+.master-lists{
+
+}
+.master-lists .master-info{
+        display: flex;
+    flex-direction: column;
+}
+
+.master-lists .img-cells{
+        width: 3.3rem;
+    margin-right: 10px;
+}

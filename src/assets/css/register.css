@@ -1,0 +1,33 @@
+body{
+      background: #F3F2F2;
+}
+.weui-cells{
+  margin-top: 0 !important;
+}
+.header {
+    background: #FAFAFA;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.header .img-back {
+    width: 28px;
+    padding-right: 10px;
+}
+
+.tips{
+  color:#F89800;
+      padding: 15px;
+          background: #fff;
+}
+.tips .title{
+  font-size: 14px;
+}
+.tips .tip-item{
+  font-size: 12px;
+      padding-bottom: 5px;
+}
+
+.btns{
+  padding:20px 15px;
+}

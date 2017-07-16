@@ -1,0 +1,205 @@
+
+body{
+      background: #F3F2F2;
+}
+header.back-header {
+    background: #FAFAFA;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+header.back-header .img-back {
+    width: 28px;
+    padding-right: 10px;
+}
+
+header.back-header  .btn-absolute-right{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 13px 15px;
+}
+
+.weui-cells{
+    margin-top: 0 !important;
+}
+
+.font-green{
+    color:#4AA65E;
+}
+.font-gray{
+    color:#8C8C8C;
+}
+.font-white{
+    color:white;
+}
+.font-red{
+    color:#FD0303;
+}
+.font-orange{
+    color: #FF6000;
+}
+.font-blue{
+    color:#1d99ea;
+}
+
+.badge-green{
+    background: #55C665;
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    font-size: .7rem;
+    border-radius: 4px;
+}
+.badge-red{
+    background:#F12B33;
+    display:inline-block;
+    padding:2px 8px;
+    color: #fff;
+    font-size: .7rem;
+    border-radius: 4px;
+}
+.badge-blue{
+    background:#0281F7;
+    display:inline-block;
+    padding:2px 8px;
+    color: #fff;
+    font-size: .7rem;
+    border-radius: 4px;
+}
+.badge-black{
+    background:#333;
+    display:inline-block;
+    padding:2px 25px;
+    color: #fff;
+    font-size: .7rem;
+    border-radius: 4px;
+}
+.badge-white{
+    background:#fff;
+    display:inline-block;
+    padding:2px 20px;
+    color: #333;
+    font-size: .7rem;
+    border-radius: 4px;
+    border:1px solid #ccc;
+}
+.font-size-dot-7rem{
+    font-size: .7rem;
+}
+
+.font-size-dot-8rem{
+    font-size: .8rem;
+}
+
+.font-size-dot-9rem{
+    font-size: .9rem;
+}
+
+.font-size-1rem,.font-size-rem{
+    font-size: 1rem;
+}
+.margin-top-10px{
+    margin-top: 10px !important;
+}
+.padding-top-10px{
+    padding-top: 10px;
+}
+.padding-t-5px{
+    padding-top: 5px;
+}
+.padding-bottom-10px{
+    padding-bottom:10px;
+}
+
+.flex-1{
+    flex: 1;
+}
+.text-align-left{
+    text-align: left;
+}
+
+.btns{
+    padding:15px;
+}
+.btn-blue:active{
+    color: #fff !important;
+}
+.btn-blue,.btn-blue:focus{
+    background: #138DD8;
+    color: #fff;
+    border:none;
+}
+.count-component{
+display: flex;
+    align-items: center;
+}
+.count-component .less{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 1px;
+    border:1px solid #A8A7A7;
+    font-size: 1.5rem;
+    line-height: .8rem;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.count-component .count{
+    width: 2rem;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.count-component .plus{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 1px;
+    border:1px solid #A8A7A7;
+    font-size: 1.3rem;
+    line-height: .8rem;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.count-component .active{
+    color:#fff;
+    border-color: red;
+    background: red;
+}
+
+.weui-select{
+    padding-left: 0;
+    height: auto;
+    line-height: 1.47058824;
+}
+
+.tips{
+    padding:15px;
+    background: #fff;
+    color:#FF6000;
+}
+.tips .title{
+    font-size: .8rem;
+}
+
+.tips .sub-title{
+    font-size: .7rem;
+}
+.padding-lr-15px{
+    padding:0 15px;
+}
+.border-radius-half-circle{
+        border-radius: 20px;
+    padding: 0 15px;
+}
+
+.flex-column-center{
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+}

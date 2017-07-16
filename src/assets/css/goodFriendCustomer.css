@@ -1,0 +1,11 @@
+.customer-list{
+
+}
+.customer-list .weui-cells{
+    margin-top: 0;
+}
+
+.customer-list .img-cells{
+        width: 2rem;
+    margin-right: 10px;
+}

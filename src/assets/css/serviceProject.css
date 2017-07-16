@@ -1,0 +1,53 @@
+body{
+
+}
+.logo{
+background: #138DD8;
+    width: 100%;
+    height:150px;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+
+.logo .img1{
+    width: 3rem;
+}
+
+.logo .title{
+    font-size: .8rem;
+        color: #fff;
+}
+
+.logo .as-r{
+    position: absolute;
+    right:15px;
+    top:15px;
+
+}
+
+.logo .as-r .title{
+    font-size: .7rem;
+}
+
+.logo .bg-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+}
+.logo .bg-1 img{
+    width: 100%;
+}
+
+.list-cells{
+
+}
+.list-cells .weui-cells{
+    margin-top: 0;
+}
+.list-cells .img-cells{
+    width: 1.5rem;
+        margin-right: 10px;
+}
